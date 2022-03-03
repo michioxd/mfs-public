@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans);
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Google Sans', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+    background: #3399ff
+}
+
+#headerdot {
+    width: 90%;
+    height: 200px;
+    margin: auto
+}
+
+.socialnetwork {
+    padding: 10px;
+}
+
+.maindot {
+    width: 100%;
+    height: 155px
+}
+
+#logoshop {
+    width: 20%;
+    float: left;
+}
+
+#logoshop img {
+    width: 150px;
+    padding: 35px 45px
+}
+
+#searchitem {
+    width: 80%;
+    float: right;
+}
+
+#searchbot {
+    width: 80%;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    margin: 50px 0px
+}
+
+#searchbtn {
+    width: 10%;
+    height: 40px;
+    border: 2px solid #fff;
+    padding: 10px;
+    background: #3399ff;
+    color: white;
+    font-weight: bold;
+}
+
+.mainshop {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+#itemking {
+    float: left;
+    width: 37%;
+    font-family: Arial;
+    color: white;
+    margin-right: 1rem;
+    padding: 20px 0px 0px 20px;
+}
+
+#menulist {
+    float: left;
+    width: 20%;
+    height: 300px;
+    color: white;
+    padding: 20px 0px 0px 20px;
+    border-right: 1px solid #ddd;
+}
+
+#linkref {
+    color: #000;
+}
+
+#linkref:hover {
+    background: #ddd;
+    color: #3399ff;
+}
+
+#shopitem {
+    width: 77%;
+    float: right;
+    height: auto;
+}
+
+#boxpre {
+    width: 24%;
+    background: white;
+    height: 330px;
+    float: left;
+    margin-left: 0.8%;
+    margin-top: 10px
+}
+
+#boxpre img {
+    width: 100%;
+}
+
+#cost {
+    padding: 10px 10px 0px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    color: black
+}
+
+#price {
+    color: red;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 0px 10px 10px 10px
+}
+
+#textorder {
+    color: #222;
+    font-family: system-ui;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#menulist {
+    float: left;
+    width: 20%;
+    height: 300px;
+    font-family: Arial;
+    color: white;
+    padding: 20px 0px 0px 20px;
+}
+
+#shopitem {
+    width: 77%;
+    float: right;
+    height: auto;
+}
+
+#payment {
+    width: 150px;
+    color: white;
+    background: #3399ff;
+    font-weight: bold;
+    height: 45px;
+    border: none;
+    margin: 0px 10px;
+    float: left
+}
+
+#payment2 {
+    width: 180px;
+    color: #3399ff;
+    background: white;
+    font-weight: bold;
+    height: 45px;
+    border: 1px solid #3399ff;
+    margin: 0px 10px;
+}
+
+.svg-loader {
+    display: block;
+}
+
+.loader-svg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    fill: none;
+    stroke-width: 5px;
+    stroke-linecap: round;
+    stroke: #3399ff;
+}
+
+.loader-svg.bg {
+    stroke-width: 8px;
+    stroke: #baddff;
+}
+
+.animate {
+    stroke-dasharray: 242.6;
+    animation: fill-animation 1s cubic-bezier(1, 1, 1, 1) 0s infinite;
+}
+
+@keyframes fill-animation {
+    0% {
+        stroke-dasharray: 40 242.6;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 141.3;
+        stroke-dashoffset: 141.3;
+    }
+    100% {
+        stroke-dasharray: 40 242.6;
+        stroke-dashoffset: 282.6;
+    }
+}
+
+.loading--wrap {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.loadingPage {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pace .pace-progress {
+    box-shadow: 0px 0px 5px #000;
+    transition: .2s;
+    border-radius: 3px;
+}
+
+.otherproduct {
+    display: flex;
+}
+
+#items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#orderitem {
+    width: 100%;
+}
+
+.NotFound {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.NotFound h1 {
+    font-size: 150px;
+}
+
+.NotFound p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pace::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    opacity: 0.5;
+    z-index: 1999;
+}
